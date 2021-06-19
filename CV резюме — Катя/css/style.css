@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+  
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size:inherit;font-weight: 400;}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 1300px;
+    
+}
+
+.saidbar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+}
+
+.wrapper {
+    background: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    
+}
+
+.foto {
+    width: 370px;
+}
+
+.aboutme {
+    padding-left: 90px;
+    padding-right: 105px;
+    padding-top: 40px;
+    padding-bottom: 110px;
+}
+
+.contacts {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999a9b;
+
+}
+
+.contacts-link-tape {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.video-and-foto {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.video-and-foto-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+
+.video-and-foto-link {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999a9b;
+
+}
+
+.video-and-foto-link-tape{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px  
+
+}
+
+
+.profession {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+    padding-top: 40px;
+    color: #1e2939;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.data {
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #1e2939;
+}
+.data-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.data-title {
+    margin-bottom: 25px;
+}
+
+.data-ul{
+    margin-left: 40px;
+}
+.physical {
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #1e2939;
+}
+
+.physical-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.physical-title {
+    margin-bottom: 25px;
+    
+}
+
+.physical-ul {
+    margin-left: 40px;
+
+}
+
+.education {
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #1e2939;
+}
+
+.education-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education-title {
+    margin-bottom: 25px;
+}
+
+.education-ul {
+    margin-left: 40px;
+}
+
+.expirience {
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #1e2939;
+}
+
+.expirience-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+    
+}
+
+.expirience-title {
+    margin-bottom: 25px;
+}
+
+.expirience-ul {
+    margin-left: 40px;
+}
+
+.repertoire {
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #1e2939;
+}
+
+.repertoire-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.repertoire-ul {
+    margin-left: 40px;
+}
